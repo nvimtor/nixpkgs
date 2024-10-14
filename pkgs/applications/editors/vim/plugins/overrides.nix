@@ -2654,7 +2654,6 @@ in
   leetcode-nvim = super.leetcode-nvim.overrideAttrs {
     dependencies = with self; [
       nui-nvim
-      plenary-nvim
       telescope-nvim
     ];
 
